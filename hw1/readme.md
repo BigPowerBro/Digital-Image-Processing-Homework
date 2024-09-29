@@ -1,10 +1,10 @@
 # 1.Global Transform
 
-<img src=pic/1_global.gif>
+<img src="pic/1_point.gif" alt="alt text" width="800">
 
 # 2.Point Transform
 
-<img src=pic/1_point.gif>
+<img src="pic/1_global.gif" alt="alt text" width="800">
 
 # 3.Running
 
