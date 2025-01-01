@@ -7,7 +7,7 @@ if __name__ == '__main__':
     ##parser = argparse.ArgumentParser(description='Run COLMAP for multi-view stereo')
     ##parser.add_argument('--data_dir', type=str, required=True, help='Path to the input directory containing images in data_dir/images')
     ##args = parser.parse_args()
-    data_dir = 'data/chair'
+    data_dir = 'data/lego'
 
     # Feature extraction with shared intrinsics (assume it's the same camera)
     subprocess.run(['D:\\CG\\colmap\\bin\\colmap.exe', 'feature_extractor', '--image_path', os.path.join(data_dir, 'images'), '--database_path', os.path.join(data_dir, 'database.db'), '--ImageReader.single_camera', '1', '--ImageReader.camera_model', 'PINHOLE', '--SiftExtraction.use_gpu', '1'])
